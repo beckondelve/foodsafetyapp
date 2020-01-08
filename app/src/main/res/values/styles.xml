@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <string-array name="drawer_array">
+        <item>INTRODUCTION</item>
+        <item>Premises</item>
+        <item>FLOW DIAGRAM</item>
+        <item>HACCP CHARTS</item>
+        <item>HOUSE RULES</item>
+        <item>RECORDS</item>
+    </string-array>
+</resources>

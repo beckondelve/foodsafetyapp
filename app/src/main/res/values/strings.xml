@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Food Guidelines</string>
+    <string name="err">Something went wrong</string>
+    <string name="email_match">Email is already exist</string>
+    <string name="net">Check network setting</string>
+    <string name="term1">Just Meals safer food app Terms and Conditions of use</string>
+    <string name="term2">By downloading the App you agree to the following:</string>
+    <string name="term3">agreement that includes the terms, the rules and the guidelines of acceptable behavior and other useful sections to which users must agree in order to use or access your website and mobile app.</string>
+</resources>

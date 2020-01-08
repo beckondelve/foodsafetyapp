@@ -1,0 +1,26 @@
+<com.pdftron.pdf.PDFViewCtrl xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pdfviewctrl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical|horizontal">
+    <com.pdftron.pdf.tools.CustomRelativeLayout
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:posX="50"
+        app:posY="150"
+        app:pageNum="3"
+        app:zoomWithParent="true">
+        <!--Child views under CustomRelativeLayout-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Custom Layout Text View"
+            android:textSize="24dp"
+            android:elevation="2dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/light_gray" />
+    </com.pdftron.pdf.tools.CustomRelativeLayout>
+</com.pdftron.pdf.PDFViewCtrl>

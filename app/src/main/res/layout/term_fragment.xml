@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="70dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/sky"
+            android:text="Term &amp; Conditions"
+            android:textColor="#fff"
+            android:gravity="center|start"
+
+            android:paddingLeft="10dp"
+            android:textSize="20sp"
+            android:fontFamily="@font/myriadpro_bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/term1"
+            android:textColor="@color/black"
+            android:gravity="center|start"
+            android:paddingLeft="10dp"
+            android:padding="5dp"
+            android:textSize="18sp"
+            android:fontFamily="@font/myriadpro" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/term2"
+            android:textColor="@color/gray"
+            android:gravity="center|start"
+            android:paddingLeft="10dp"
+            android:padding="5dp"
+            android:textSize="17sp"
+            android:fontFamily="@font/myriadpro" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/term3"
+            android:textColor="@color/black"
+            android:gravity="center|start"
+            android:paddingLeft="10dp"
+            android:padding="5dp"
+            android:textSize="16sp"
+            android:fontFamily="@font/myriadpro" />
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:layout_marginBottom="7dp"
+    android:layout_alignParentBottom="true"
+    android:gravity="center|end"
+    android:orientation="horizontal">
+    <Button
+        android:id="@+id/delineBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:background="@drawable/round_btn_back"
+        android:backgroundTint="@color/dark_blue"
+        android:text="Decline"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:textColor="#fff"
+        android:layout_marginRight="20sp"
+        android:textSize="18sp"
+        android:fontFamily="@font/myriadpro_bold" />
+    <Button
+        android:id="@+id/acceptBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:background="@drawable/round_btn_back"
+        android:backgroundTint="@color/gray"
+        android:text="Accept"
+        android:textColor="#fff"
+        android:layout_marginRight="10dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:textSize="18sp"
+        android:fontFamily="@font/myriadpro_bold" />
+
+</LinearLayout>
+</RelativeLayout>

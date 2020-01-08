@@ -1,0 +1,121 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/safer_icon"/>
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/edit_email"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_edittext_border"
+                android:drawablePadding="5dp"
+                android:hint="Email"
+                android:fontFamily="@font/myriadpro"
+                android:imeOptions="actionNext"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="10dp"
+                android:paddingRight="40dp"
+                android:singleLine="true"
+                android:textColor="#333"
+                android:textColorHint="#766f6f"
+                android:textSize="14sp"
+                android:typeface="normal" />
+
+
+            <!--   <EditText
+                   android:id="@+id/edit_pwd"
+                   android:layout_width="fill_parent"
+                   android:layout_height="50dp"
+                   android:hint="@string/passward_required"
+                   android:inputType="textPassword"
+                   android:textAlignment="viewStart"
+                   android:textColor="#000"
+                   android:textSize="@dimen/medium"
+                   tools:ignore="SpUsage" />-->
+
+
+            <EditText
+                android:id="@+id/edit_pwd"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/input_layout_email"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_edittext_border"
+                android:drawablePadding="5dp"
+                android:hint="Password"
+                android:fontFamily="@font/myriadpro"
+                android:imeOptions="actionNext"
+                android:inputType="textPassword"
+                android:paddingLeft="10dp"
+                android:paddingRight="40dp"
+                android:singleLine="true"
+                android:textColor="#333"
+                android:textColorHint="#766f6f"
+                android:textSize="14sp"
+                android:typeface="normal" />
+
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:background="@drawable/round_btn_back"
+            android:backgroundTint="@color/dark_blue"
+            android:text="Sign In"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:fontFamily="@font/myriadpro_bold" />
+
+        <Button
+            android:id="@+id/btn_signup"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:background="@drawable/round_btn_back"
+            android:backgroundTint="@color/sky"
+            android:text="Sign Up"
+            android:layout_marginTop="20dp"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:fontFamily="@font/myriadpro_bold" />
+
+        <TextView
+            android:id="@+id/txt_forgot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18sp"
+            android:text="Forgotten your Password ?"
+            android:textColor="#766f6f"
+            android:fontFamily="@font/myriadpro_bold"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+</RelativeLayout>
+
+

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.munish.saferfoodproject">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".View.Ui.Activities.ViewRecordOcActivity"></activity>
+        <activity android:name=".View.Ui.Activities.WebViewActivity" />
+        <activity android:name=".View.Ui.Activities.HomeActivity" />
+        <activity android:name=".View.Ui.Activities.ContainerLogin" />
+        <activity android:name=".View.Ui.Activities.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="pdftron_license_key"
+            android:value="apn2wqdqvt14w1twujdsdfe_nr7hifp3vnojjxo7en3lq" />
+
+        <activity
+            android:name="com.pdftron.pdf.controls.DocumentActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize"
+            android:theme="@style/CustomAppTheme"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name=".View.Ui.Activities.PdfViewActivity" />
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="4b1825d58cf2dd969b11d1d94748388a81c756f8" />
+    </application>
+
+</manifest>

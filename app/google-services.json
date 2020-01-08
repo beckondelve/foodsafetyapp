@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "218661377234",
+    "firebase_url": "https://safer-food.firebaseio.com",
+    "project_id": "safer-food",
+    "storage_bucket": "safer-food.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:218661377234:android:905e0e61c5a955f33fc90b",
+        "android_client_info": {
+          "package_name": "com.munish.saferfoodproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "218661377234-1n3nbjnej6fa6idgub92bgcdkbphdu7n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.munish.saferfoodproject",
+            "certificate_hash": "1022d35a6cec8b9aa5532e15dcef7cb47d2071d2"
+          }
+        },
+        {
+          "client_id": "218661377234-if21g9rtsqlit4vve8sfmnpot8d0bq6u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfncJ9TcxphR5MBWOIO3UlaVPesSqG_NA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "218661377234-if21g9rtsqlit4vve8sfmnpot8d0bq6u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
