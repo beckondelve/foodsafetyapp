@@ -1,4 +1,4 @@
-# foodsafetyapp
+# Food Safety Android App
 
 1. Food Safety measure app under food safety guideline set by UK Gov for restaurant Industry.
 
